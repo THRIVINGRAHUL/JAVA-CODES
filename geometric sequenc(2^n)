@@ -1,0 +1,14 @@
+import java.util.*; 
+import java.lang.Math;
+class Tester {
+	public static void main(String[] args) {
+	Scanner seq = new Scanner(System.in);
+	System.out.print("Enter the sequence size :: ");
+	int a = seq.nextInt();
+	for (double n=0;n<a;n++)
+	{
+	    double b = 2;
+	    System.out.println(Math.pow(b,n));
+	}
+	}
+}
